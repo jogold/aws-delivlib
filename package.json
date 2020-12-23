@@ -37,7 +37,7 @@
     "changelog-parser": "^2.8.0"
   },
   "devDependencies": {
-    "@monocdk-experiment/assert": "1.77.0",
+    "@monocdk-experiment/assert": "1.80.0",
     "@types/jest": "^26.0.19",
     "@types/node": "^10.17.49",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
