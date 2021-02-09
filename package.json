@@ -40,7 +40,7 @@
     "@monocdk-experiment/assert": "1.88.0",
     "@types/jest": "^26.0.20",
     "@types/node": "^10.17.51",
-    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.14.2",
     "aws-cdk": "1.88.0",
     "constructs": "^3.3.14",
