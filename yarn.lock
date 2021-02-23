@@ -9,6 +9,13 @@
   dependencies:
     md5 "^2.3.0"
 
+"@aws-cdk/cfnspec@1.90.1":
+  version "1.90.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-1.90.1.tgz#af7b1588ec42cff389d6d32ba680d35e031f3645"
+  integrity sha512-6W4C0RUbE6LqLefWC0YRVomGiBAlTk2vWMJYlK608Bg5KQv3jpOOhjipOClLEfwdzZulTmG2VLU4zxJBD488QQ==
+  dependencies:
+    md5 "^2.3.0"
+
 "@aws-cdk/cloud-assembly-schema@1.90.0":
   version "1.90.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.90.0.tgz#a0384d5d5adc1773b31eb422d00227de5b7cb077"
@@ -23,6 +30,18 @@
   integrity sha512-bKY59stgj7rinnWjNxo6H73ENOVbTlKyNCIAQC3GHJnJa3Iw7V0hLlWAOpceZCpAAIaWJ30rb/ZYrK1JVjA68w==
   dependencies:
     "@aws-cdk/cfnspec" "1.90.0"
+    colors "^1.4.0"
+    diff "^5.0.0"
+    fast-deep-equal "^3.1.3"
+    string-width "^4.2.0"
+    table "^6.0.7"
+
+"@aws-cdk/cloudformation-diff@1.90.1":
+  version "1.90.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloudformation-diff/-/cloudformation-diff-1.90.1.tgz#3c19ff1bfb5970dad92324612af85f2750b450a5"
+  integrity sha512-+VvI8+RyN4n3ePqZkIv4sq+qIucSc12zHl5meSUT3YCqoLiXfQ4RvElXpV18WCTUrVBU7PPWufDGYWVAtYZp/A==
+  dependencies:
+    "@aws-cdk/cfnspec" "1.90.1"
     colors "^1.4.0"
     diff "^5.0.0"
     fast-deep-equal "^3.1.3"
@@ -533,12 +552,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@monocdk-experiment/assert@1.90.0":
-  version "1.90.0"
-  resolved "https://registry.yarnpkg.com/@monocdk-experiment/assert/-/assert-1.90.0.tgz#1697b89c24ec0e1e273f6a4cdfedf1b297a33071"
-  integrity sha512-LpcoC28VIeQFSsItx+nDgIhl/fqVkygnHczf2QzkRGLomkbOwXg67dxIc+VgVpLrH6dQSUrlNEu9nqGmsW6ivA==
+"@monocdk-experiment/assert@1.90.1":
+  version "1.90.1"
+  resolved "https://registry.yarnpkg.com/@monocdk-experiment/assert/-/assert-1.90.1.tgz#19ec9c162e241ab0a8164eae941f7ca61e9d7cd9"
+  integrity sha512-cUdQXPSFCTwjw5Ti8gicVMnvjb9XtnG2sZoRHXoir8C66ZqlP3z8lM7UTwHpyZ4HcmjFydcrcSiJxHKw6yoBcw==
   dependencies:
-    "@aws-cdk/cloudformation-diff" "1.90.0"
+    "@aws-cdk/cloudformation-diff" "1.90.1"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
