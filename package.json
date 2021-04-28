@@ -39,7 +39,7 @@
   "devDependencies": {
     "@monocdk-experiment/assert": "1.91.0",
     "@types/jest": "^26.0.20",
-    "@types/node": "^10.17.55",
+    "@types/node": "^10.17.59",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "aws-cdk": "1.91.0",
